@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df=pd.read_csv('./phone_usage_cleaned.csv')
+df=pd.read_csv('phone_usage_cleaned.csv')
+
 
 st.header('Exploratory Data Analysis of Phone Usage')
 obj_Group = ['Gender', 'Location', 'Phone Brand', 'OS', 'Primary Use']
